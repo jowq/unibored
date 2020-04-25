@@ -9,5 +9,10 @@ div {
 .logo {
     max-height: 100px;
     max-width: 100px;
+    
 }
 
+.small {
+    font-size: smaller;
+    color: #808080;
+}
