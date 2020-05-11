@@ -2,736 +2,738 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Unibored.com</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://getbootstrap.com/docs/4.4/assets/css/docs.min.css">
+  <title>Unibored.com</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <div class="container-fluid">
-  <div class="row">
-    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-      <div class="sidebar-sticky">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="#site-title">
-              Online Learning: IT & Programming<span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#arts">
-              Online Learning: Arts
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#health-fitness-wellness">
-              Health, Fitness & Wellness
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#entertainment">
-              Entertainment
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#games">
-              Games
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#virtual-tours-museums">
-              Virtual Tours: Museums
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<body data-spy="scroll" data-target="#sidebar-scrollspy">
+  <nav class="col-md-2 d-none d-md-block bg-light sidebar" id="sidebar-scrollspy">
+    <div class="sidebar-sticky">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#it">
+            Online Learning: IT & Programming
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#arts">
+            Online Learning: Arts
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#health">
+            Health, Fitness & Wellness
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#entertainment">
+            Entertainment
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#games">
+            Games
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#museums">
+            Virtual Tours: Museums
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-      <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-          <h1 class="display-3">Unibored.com</h1>
-          <p>A thousand things you could be doing but being bored ain't one. Here's a list of resources you could
-              kickstart your day with if you're stuck at home with little to do.</p>
-      </nav>
-      <section class="list">
-          <div class="container">
-              <h1>Online Learning: IT & Programming</h1>
-              <table id="web-technologies" class="table table-hover">
-                  <thead>
-                      <tr>
-                          <th scope="col" width="10%">Site</th>
-                          <th scope="col" width="40%">Description</th>
-                          <th scope="col" width="30%">Offer</th>
-                          <th scope="col" width="5%">URL</th>
-                          <th scope="col" width="15%">Availablility</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr id="365-data-science">
-                          <th scope="col"><img class="logo" src="img/web/365-data-science.png" alt="365 Data Science">
-                              </td>
-                          <td>365 Data Science focuses on data science, designed for aspiring BI analysts, Data Analysts
-                              and Data scientists</td>
-                          <td>Free access to the platform</td>
-                          <td><a href="https://365datascience.com/">Link</a></td>
-                          <td>Free till April 15, 2020</td>
-                      </tr>
-                      <tr id="codecademy">
-                          <th scope="col"><img class="logo" src="img/web/codecademy.png" alt="Codecademy"></td>
-                          <td>Codecademy offers coding classes in 12 different programming languages including Python,
-                              Java, JavaScript, Ruby, SQL, C++, Swift, and Sass, as well as markup languages HTML and CSS
-                          </td>
-                          <td>10,000 scholarships to Codecademy Pro for free to high school and college students</td>
-                          <td><a
-                                  href="https://pro.codecademy.com/learn-from-home/?utm_source=contentful_banner&utm_medium=referral&utm_campaign=learn_from_home">Link</a>
-                          </td>
-                          <td>90 days from approval</td>
-                      </tr>
-                      <tr id="dataquest">
-                          <th scope="col"><img class="logo" src="img/web/dataquest.png" alt="Dataquest"></td>
-                          <td>Dataquest offers a curriculum in Data Science with coding challenges and projects in R and
-                              Python</td>
-                          <td>All successful applicants receive three months of free Basic access and another three by
-                              completing one course</td>
-                          <td><a href="https://www.dataquest.io/blog/covid-financial-aid-scholarship">Link</a></td>
-                          <td>3 months + 3 months</td>
-                      </tr>
-                      <tr id="google-cloud">
-                          <th scope="col"><img class="logo" src="img/web/google-cloud.png" alt="Google Cloud"></td>
-                          <td>Google Cloud is suite of cloud computing services that runs on the same infrastructure for
-                              its end-user products e.g. Search, Gmail and YouTube</td>
-                          <td>One month free access to Google Cloud training available on Qwiklabs, Coursera, and
-                              Pluralsight</td>
-                          <td><a href="https://inthecloud.withgoogle.com/training-discount/register.html">Link</a></td>
-                          <td>One month</td>
-                      </tr>
-                      <tr id="ibm-skills-training">
-                          <th scope="col"><img class="logo" src="img/web/ibm.png" alt="IBM Training & Skills"></td>
-                          <td>IBM Training & Skills is offering courses from foundational soft skills programs to IBM
-                              certification training</td>
-                          <td>Free access to the platform</td>
-                          <td><a href="https://www.ibm.com/blogs/ibm-training/free-training-to-update-skills/">Link</a>
-                          </td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="learnsql">
-                          <th scope="col"><img class="logo" src="img/web/learnsql.png" alt="LearnSQL"></td>
-                          <td>LearnSQL offers database tracks in SQL, Microsoft SQL Server and PostgreSQL</td>
-                          <td>Free access to the platform</td>
-                          <td><a href="https://learnsql.com/blog/online-education-in-the-times-of-covid19/">Link</a></td>
-                          <td>Free till April 20, 2020</td>
-                      </tr>
-                      <tr id="microsoft-azure">
-                          <th scope="col"><img class="logo" src="img/web/microsoft.png" alt="Microsoft Azure"></td>
-                          <td>Microsoft Azure offers building, testing, deploying, and managing applications and services
-                              through Microsoft-managed data centers</td>
-                          <td>Free Microsoft Azure Virtual Training Day and voucher for the AZ-900 Microsoft Azure
-                              Fundamentals certification exam</td>
-                          <td><a
-                                  href="https://info.microsoft.com/CE-AzureINFRA-WBNR-FY20-04Apr-21-MicrosoftAzureVirtualTrainingDayFundamentalsMaster-">Link</a>
-                          </td>
-                          <td>April 21, 2020</td>
-                      </tr>
-                      <tr id="oracle-university">
-                          <th scope="col"><img class="logo" src="img/web/oracle.png" alt="Oracle University"></td>
-                          <td>Oracle University is an in-classroom and online training provider for Oracle certifications
-                          </td>
-                          <td>Free access to 50 hours of online training and 6 certification exams for Oracle Cloud
-                              Infrastructure and Oracle Autonomous Database</td>
-                          <td><a
-                                  href="https://www.oracle.com/corporate/blog/free-certifications-oracle-oci-autonomous-033020.html">Link</a>
-                          </td>
-                          <td>March 30 till May 15, 2020</td>
-                      </tr>
-                      <tr id="pluralsight">
-                          <th scope="col"><img class="logo" src="img/web/pluralsight.png" alt="Pluralsight"></td>
-                          <td>Pluralsight offers variety of video training courses for software developers, IT
-                              administrators, and creative professionals</td>
-                          <td>Free access to the platform</td>
-                          <td><a href="https://www.pluralsight.com/offer/2020/free-april-month">Link</a></td>
-                          <td>Free till April 30, 2020</td>
-                      </tr>
-                      <tr id="real-python">
-                          <th scope="col"><img class="logo" src="img/web/real-python.png" alt="Real Python"></td>
-                          <td>Real Python offers Python tutorials for developers of all skill levels including books,
-                              courses, news, code examples and articles</td>
-                          <td>Gift code to a bundle of specific members-only video courses</td>
-                          <td><a href="https://realpython.com/free-courses-march-2020">Link</a></td>
-                          <td>Lifetime</td>
-                      </tr>
-                      <tr id="skillshare">
-                          <th scope="col"><img class="logo" src="img/web/skillshare.png" alt="Skillshare"></td>
-                          <td>Skillshare is an online learning community for people who want to learn from educational
-                              videos through interaction and completing projects</td>
-                          <td>Free for .edu and .k12 email address with limited need-based availability</td>
-                          <td><a
-                                  href="https://www.skillshare.com/blog/company/were-in-this-together-and-we-want-to-help">Link</a>
-                          </td>
-                          <td>2 months</td>
-                      </tr>
-                      <tr id=stanford-university>
-                          <th scope="col"><img class="logo" src="img/web/stanford-old.png" alt="Stanford University"></td>
-                          <td>Stanford University's CS106A - Code in Place, will be an introductory programming course
-                              using the Python language, using material from the first half of its established intro
-                              course, CS106A</td>
-                          <td>Free introductory coding course subject to availability</td>
-                          <td><a href="https://compedu.stanford.edu/codeinplace/announcement/">Link</a></td>
-                          <td>April 13 till May 22, 2020</td>
-                      </tr>
-                      <tr id="tableau">
-                          <th scope="col"><img class="logo" src="img/web/tableau.png" alt="Tableau"></td>
-                          <td>Tableau is an interactive data visualization software focusing on Business Intelligence</td>
-                          <td>Free access to Tableau eLearning</td>
-                          <td><a href="https://www.tableau.com/learn/training/elearning">Link</a></td>
-                          <td>90 days</td>
-                      </tr>
-                      <tr id="udacity">
-                          <th scope="col"><img class="logo" src="img/web/udacity-full.png" alt="Udacity"></td>
-                          <td>Udacity offers vocational massive open online courses (MOOCs) and nanodegrees in Data
-                              Science, Artificial Intelligence, Autonomous Systems, Cloud Computing and Business in
-                              addition to Programming</td>
-                          <td>One free month on one of 40 premium Nanodegree programs</td>
-                          <td><a href="https://blog.udacity.com/2020/03/one-month-free-on-nanodegrees.html">Link</a></td>
-                          <td>One month</td>
-                      </tr>
-                      <tr id="unity-learn">
-                          <th scope="col"><img class="logo" src="img/web/unity.png" alt="Unity Learn"></td>
-                          <td>Unity Learn is a learning platform to build real-time 2D, 3D, VR and AR visualizations</td>
-                          <td>Free access to the platform</td>
-                          <td><a href="https://learn.unity.com/">Link</a></td>
-                          <td>3 month</td>
-                      </tr>
-                  </tbody>
-              </table>
-          </div>
-          <div id="arts" class="container">
-              <h1>Online Learning: Arts</h1>
-              <table class="table table-hover">
-                  <thead>
-                      <tr>
-                          <th scope="col" width="10%">Site</th>
-                          <th scope="col" width="40%">Description</th>
-                          <th scope="col" width="30%">Offer</th>
-                          <th scope="col" width="5%">URL</th>
-                          <th scope="col" width="15%">Availablility</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr id="amped">
-                          <th scope="col"><img class="logo" src="img/arts/amped.png" alt="Amped Guitar"></td>
-                          <td>Amped uses Augmented Reality to help you learn. It listens to you and modifies your playing
-                              in real-time</td>
-                          <td>3 months premium access</td>
-                          <td><a href="https://www.ampedguitar.com/">Link</a></td>
-                          <td>3 months</td>
-                      </tr>
-                      <tr id="milk-street">
-                          <th scope="col"><img class="logo" src="img/arts/milk-street.jpg"
-                                  alt="Christopher Kimball's Milk Street"></td>
-                          <td>At the Milk Street Online Cooking School you won’t learn just recipes, you'll learn new ways
-                              to approach food and cooking, giving you a reinvigorated enthusiasm for putting dinner on
-                              the table</td>
-                          <td>The entire line of online cooking classes available for free till the end of April</td>
-                          <td><a href="https://www.177milkstreet.com/school/classes/online-classes/">Link</a></td>
-                          <td>Free through April 30, 2020</td>
-                      </tr>
-                      <tr id="ella-verbs">
-                          <th scope="col"><img class="logo" src="img/arts/ella-verbs.jpg" alt="Ella Verbs"></td>
-                          <td>Ella Verbs helps you learn Spanish verbs conjugation by working through 30 levels of
-                              bite-sized lessons & quizzes, covering 16 tenses and 1000+ verbs</td>
-                          <td>One free month on iOS and Android</td>
-                          <td><a href="https://ellaverbs.com/education/">Link</a></td>
-                          <td>One month</td>
-                      </tr>
-                      <tr id="fender-play">
-                          <th scope="col"><img class="logo" src="img/arts/fender-play.jpg" alt="Fender Play"></td>
-                          <td>Fender Play is the complete app for learning to play acoustic and electric guitar, bass and
-                              ukulele</td>
-                          <td>3 months of free lessons</td>
-                          <td><a href="https://try.fender.com/play/playthrough/">Link</a></td>
-                          <td>3 months</td>
-                      </tr>
-                      <tr id="nikon">
-                          <th scope="col"><img class="logo" src="img/arts/nikon.png" alt="Nikon"></td>
-                          <td>Nikon School has been educating and inspiring photographers of all levels with affordable
-                              photography classes across the country for over 30 years</td>
-                          <td>Free courses</td>
-                          <td><a href="https://www.ampedguitar.com/">Link</a></td>
-                          <td>Free till April 30, 2020</td>
-                      </tr>
-                  </tbody>
-              </table>
-          </div>
-          <div id="health-fitness-wellness" class="container">
-              <h1>Health, Fitness & Wellness</h1>
-              <table class="table table-hover">
-                  <thead>
-                      <tr>
-                          <th scope="col" width="10%">Site</th>
-                          <th scope="col" width="40%">Description</th>
-                          <th scope="col" width="30%">Offer</th>
-                          <th scope="col" width="5%">URL</th>
-                          <th scope="col" width="15%">Availablility</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr id="balance">
-                          <th scope="col"><img class="logo" src="img/fitness/balance.png" alt="Balance: Meditation"></td>
-                          <td>Balance is your personal meditation coach. Improve your stress, sleep, and more</td>
-                          <td>Free one year trial. Available on iOS</td>
-                          <td><a href="https://apps.apple.com/app/id1361356590">Link</a></td>
-                          <td>One year</td>
-                      </tr>
-                      <tr id="core-power-yoga">
-                          <th scope="col"><img class="logo" src="img/fitness/core-power-yoga.png" alt="CorePower Yoga">
-                              </td>
-                          <td>CorePower Yoga On Demand offers more than 250 online yoga, sculpt and meditation classes
-                          </td>
-                          <td>Free access to a new collection of online classes every week</td>
-                          <td><a href="https://www.corepoweryogaondemand.com/keep-up-your-practice">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="fitbit">
-                          <th scope="col"><img class="logo" src="img/fitness/fitbit.png" alt="Fitbit"></td>
-                          <td>Fitbit app tracks basic stats and stay motivated on your journey to better health and
-                              fitness or get a Fitbit tracker or smartwatch to see how your activity, workouts, sleep,
-                              nutrition and stress all fit together</td>
-                          <td>90-day premium trial via the Fitbit app. Valid payment method required. Cancel before free
-                              trial ends to avoid subscription fees</td>
-                          <td><a href="https://blog.fitbit.com/letter-from-ceo/">Link</a></td>
-                          <td>90 days</td>
-                      </tr>
-                      <tr id="golds-gym">
-                          <th scope="col"><img class="logo" src="img/fitness/golds-gym.png" alt="Gold's Gym"></td>
-                          <td>Gold's Gym is a chain of fitness centers worldwide which were in its early days frequent by
-                              Arnold Schwarzenegger and Dave Draper whilst operating in Venice, California</td>
-                          <td>Free unlimited access to in-app and on demand workouts with GOLD's AMP app</td>
-                          <td><a href="https://www.goldsgym.com/anywhere/">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="headspace">
-                          <th scope="col"><img class="logo" src="img/fitness/headspace.png" alt="Headspace"></td>
-                          <td>Headspace provides sessions of guided meditation with the goal of mindfulness</td>
-                          <td>Access to a selection of meditations </td>
-                          <td><a href="https://www.headspace.com/covid-19">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="les-mills">
-                          <th scope="col"><img class="logo" src="img/fitness/les-mills-on-demand.png"
-                                  alt="Les Mills On Demand"></td>
-                          <td>LES MILLS™ ON DEMAND offers online workouts on the go with Cardio, Strength, HIIT, Core and
-                              Flexibility Classes</td>
-                          <td>Free access to 100+ workouts during the COVID-19 disruptions</td>
-                          <td><a href="https://watch.lesmillsondemand.com/at-home-workouts">Link</a></td>
-                          <td>Unknown</td>
-                      </tr>
-                      <tr id="lift">
-                          <th scope="col"><img class="logo" src="img/fitness/lift-app.jpg" alt="Lift"></td>
-                          <td>Lift is a science-based recovery tool to help people find deeper levels of healing from
-                              depression or anxiety</td>
-                          <td>Free depression and anxiety recovery program with code "COVIDRECOVERY2020" under Billing
-                              after creating a free account</td>
-                          <td><a href="https://www.joinlift.com/">Link</a></td>
-                          <td>One year</td>
-                      </tr>
-                      <tr id="peloton">
-                          <th scope="col"><img class="logo" src="img/fitness/peloton.png" alt="Peloton"></td>
-                          <td>Peloton app allows anyone to workout at-home without a Peloton branded equipment from
-                              cycling, HIIT to yoga and meditation</td>
-                          <td>Full library free for 90 days for new users who signs up by April 30. Cancel before free
-                              trial ends to avoid subscription fees</td>
-                          <td><a href="https://www.onepeloton.com/digital/checkout/digital-90d">Link</a></td>
-                          <td>90 days</td>
-                      </tr>
-                      <tr id="runtastic">
-                          <th scope="col"><img class="logo" src="img/fitness/runtastic.png" alt="Runtastic"></td>
-                          <td>Runtastic track your runs, bodyweight training sessions, and other fitness & sports
-                              activities</td>
-                          <td>Free 3 Months Access to Runtastic Premium Membership</td>
-                          <td><a
-                                  href="https://www.runtastic.com/checkout/results?code=RNT-WBDA-XAVD&experiments=benefits_footer&hide_progress_indicator=true&ut=93f3eeb8ee17bc">Link</a>
-                          </td>
-                          <td>3 months</td>
-                      </tr>
-                      <tr id="robards">
-                          <th scope="col"><img class="logo" src="img/fitness/the-robards-method.png"
-                                  alt="The Robards' Method"></td>
-                          <td>The 12 minute Abs Challenge strengthen your core, burns fat and develops your six-pack in
-                              just 6 weeks by simply adding TRM’s 12 Minute, equipment free, workout to your training
-                              three times a week.</td>
-                          <td>Free 12 Minute Abs Challenge with code 'FREEABS'</td>
-                          <td><a href="https://www.therobardsmethod.com/abs/">Link</a></td>
-                          <td>Lifetime</td>
-                      </tr>
-                      <tr id="ymca">
-                          <th scope="col"><img class="logo" src="img/fitness/ymca-360.png" alt="YMCA 360"></td>
-                          <td>YMCA 360 is an on-demand online exercise, fitness, wellbeing, and youth sports classes from
-                              the comfort of your own home</td>
-                          <td>Free Online Fitness Classes</td>
-                          <td><a href="https://ymca360.org/">Link</a></td>
-                          <td>Unknown</td>
-                      </tr>
-                  </tbody>
-              </table>
-          </div>
-          <div id="entertainment" class="container">
-              <h1>Entertainment</h1>
-              <table class="table table-hover">
-                  <thead>
-                      <tr>
-                          <th scope="col" width="10%">Site</th>
-                          <th scope="col" width="40%">Description</th>
-                          <th scope="col" width="30%">Offer</th>
-                          <th scope="col" width="5%">URL</th>
-                          <th scope="col" width="15%">Availablility</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr id="cirque-de-soleil">
-                          <th scope="col"><img class="logo" src="img/entertainment/cirque-du-soleil.png"
-                                  alt="Cirque De Soleil"></td>
-                          <td>Cirque du Soleil is a Montreal-based entertainment company and the largest contemporary
-                              circus producer in the world</td>
-                          <td>Stream awe-inspiring show footage and fan favorite videos with its 60-minute specials</td>
-                          <td><a href="https://www.cirquedusoleil.com/cirqueconnect">Link</a></td>
-                          <td>Streamed on Fridays from March 27, 2020</td>
-                      </tr>
-                      <tr id="formula-1">
-                          <th scope="col"><img class="logo" src="img/entertainment/formula-1.png" alt="Formula 1"></td>
-                          <td>F1 TV is a subscription service that gets fans into the pitwall with race highlights,
-                              achives and exclusive documentary</td>
-                          <td>F1 TV Access is free for 30 days with code "1950F1TV2020"</td>
-                          <td><a
-                                  href="https://www.formula1.com/en/latest/article.get-ready-to-binge-f1-tv-access-is-now-free-for-30-days.1Dil4SQ8MZCbJDFFy3Z1kk.html">Link</a>
-                          </td>
-                          <td>30 days</td>
-                      </tr>
-                      <tr id="juventus">
-                          <th scope="col"><img class="logo" src="img/entertainment/juventus.png" alt="Juventus TV"></td>
-                          <td>Juventus TV is the new on-demand platform that offers unprecedented access to the Juventus
-                              world. The first images of new players, training sessions, exclusive interviews, historical
-                              matches and more</td>
-                          <td>Free 30 days with code "JUVE30DAYS"</td>
-                          <td><a href="https://www.juventus.com/en/fans/tv/index.php">Link</a></td>
-                          <td>30 days</td>
-                      </tr>
-                      <tr id="mso">
-                          <th scope="col"><img class="logo" src="img/entertainment/mso.png"
-                                  alt="Melbourne Symphony Orchestra"></td>
-                          <td>The Melbourne Symphony Orchestra is a non-profit, and the oldest professional orchestra in
-                              Australia and a resident at Hammer Hall, Melbourne</td>
-                          <td>Free access to its online concert series with performance broadcasts from the MSO archives
-                          </td>
-                          <td><a href="https://www.youtube.com/playlist?list=PLGUc1mZt9dlIEEDCO1pqGNDP-Wzv0x-rj">Link</a>
-                          </td>
-                          <td>Every Thursday night at 7.30pm</td>
-                      </tr>
-                      <tr id="melbourne-zoo">
-                          <th scope="col"><img class="logo" src="img/entertainment/melbourne-zoo.png" alt="Melbourne Zoo">
-                              </td>
-                          <td>The Royal Melbourne Zoological Gardens, commonly known as the Melbourne Zoo, is a zoological
-                              park in Melbourne, Australia</td>
-                          <td>Free Live Stream of Melbourne Zoo Animals</td>
-                          <td><a href="https://www.youtube.com/channel/UCS9UBqaUtoIXUhX0J1BnxwQ">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="one-world">
-                          <th scope="col"><img class="logo" src="img/entertainment/one-world.png"
-                                  alt="One World: Together at Home"></td>
-                          <td>In collaboration with Lady Gaga, Global Citizen and the World Health Organization (WHO), One
-                              World: Together at Home is a global broadcast and digital special to support frontline
-                              healthcare workers and the WHO with more than 70 musical artists and dozens of celebrities
-                          </td>
-                          <td>Streamed on multiple global platforms including Alibaba, Facebook, Instagram, Prime Video,
-                              Tencent, TIDAL, TuneIn, Twitch, Twitter, YouTube and more</td>
-                          <td><a
-                                  href="https://www.youtube.com/playlist?list=PLPDkqknt-rAgGzWv1fots5C0kg4pKIyRn&utm_source=Iterable">Link</a>
-                          </td>
-                          <td>From Saturday, 18 April 2020, 18:00 GMT</td>
-                      </tr>
-                      <tr id="pearl-jam">
-                          <th scope="col"><img class="logo" src="img/entertainment/pearl-jam.png" alt="Pearl Jam"></td>
-                          <td>Pearl Jam is an American rock band formed in 1990 in Seattle, Washington and has sold more
-                              than 85 million albums worldwide, won multiple awards and was inducted into the Rock and
-                              Roll Hall of Fame in its first year of eligibility</td>
-                          <td>Free download of its live albums from 1990 to 2009</td>
-                          <td><a href="http://pearljamlive.com/download.html">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="prime-video">
-                          <th scope="col"><img class="logo" src="img/entertainment/prime-video.png" alt="Prime Video">
-                              </td>
-                          <td>Prime Video, also marketed as Amazon Prime Video, is an American Internet video on-demand
-                              service which offers television shows and films for rent or purchase and Prime Video, a
-                              selection of Amazon Studios original content</td>
-                          <td>Free Kids Shows on Amazon Prime for all Amazon customers</td>
-                          <td><a
-                                  href="https://www.primevideo.com/storefront/ref=atv_me_fre_c_wGfJ0R_3XldU9_1_1?contentType=merch&contentId=freeforall&merchId=freeforall">Link</a>
-                          </td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="sbs">
-                          <th scope="col"><img class="logo" src="img/entertainment/sbs.png" alt="SBS"></td>
-                          <td>SBS On Demand provides free, unlimited streaming of TV shows, films and events</td>
-                          <td>Free streaming of season 1-11 of The X-Files</td>
-                          <td><a href="https://www.sbs.com.au/ondemand/program/the-x-files">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="the-met">
-                          <th scope="col"><img class="logo" src="img/entertainment/the-met.png"
-                                  alt="The Metropolitan Opera"></td>
-                          <td>The Metropolitan Opera (the Met) is a non-profit opera company based in New York City,
-                              resident at the Metropolitan Opera House at the Lincoln Center for the Performing Arts</td>
-                          <td>Each day, a different encore presentation from the company’s Live in HD series is being made
-                              available for free streaming on the Met website</td>
-                          <td><a href="https://www.metopera.org/user-information/nightly-met-opera-streams/">Link</a></td>
-                          <td>Available 23 hours a day, daily</td>
-                      </tr>
-                      <tr id="the-met">
-                          <th scope="col"><img class="logo" src="img/entertainment/wwe.png" alt="The Metropolitan Opera">
-                              </td>
-                          <td>WWE Network is an online video streaming service and digital television network where you
-                              can watch all of WWE's pay-per-view events at no additional cost</td>
-                          <td>Free access to on-demand content, including every WrestleMania in history, countless
-                              pay-per-view spectaculars and original documentaries</td>
-                          <td><a href="https://watch.wwe.com/">Link</a></td>
-                          <td>Expired</td>
-                      </tr>
-                  </tbody>
-              </table>
-          </div>
-          <div id="games" class="container">
-              <h1>Games</h1>
-              <table class="table table-hover">
-                  <thead>
-                      <tr>
-                          <th scope="col" width="10%">Site</th>
-                          <th scope="col" width="40%">Description</th>
-                          <th scope="col" width="30%">Offer</th>
-                          <th scope="col" width="5%">URL</th>
-                          <th scope="col" width="15%">Availablility</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr id="cards-against-humanity">
-                          <th scope="col"><img class="logo" src="img/games/cards-against-humanity.png"
-                                  alt="Cards Against Humanity"></td>
-                          <td>Cards Against Humanity is a party game in which players complete fill-in-the-blank
-                              statements using words or phrases typically deemed as offensive, risqué or politically
-                              incorrect printed on playing cards</td>
-                          <td>Free Print and Play beta version of the Cards Against Humanity: Family Edition</td>
-                          <td><a href="https://www.cardsagainsthumanityfamilyedition.com/">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="epic-games">
-                          <th scope="col"><img class="logo" src="img/games/epic-games.png" alt="Epic Games"></td>
-                          <td>Epic Games, Inc. is an American video game and software developer and publisher of games
-                              like Fortnight, Gears of War and the Infinity Blade series</td>
-                          <td>One free game a week with a few extras</td>
-                          <td><a href="https://www.epicgames.com/store/en-US/free-games">Link</a></td>
-                          <td>Ongoing till April 30, 2020</td>
-                      </tr>
-                      <tr id="gog">
-                          <th scope="col"><img class="logo" src="img/games/gog.png" alt="GOG.com"></td>
-                          <td>GOG.com is a digital distribution platform for video games and films</td>
-                          <td>A selection of DRM-free classic and indie games from 1980 to 2020</td>
-                          <td><a href="https://www.gog.com/partner/stay_at_home">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="playstation">
-                          <th scope="col"><img class="logo" src="img/games/playstation.png" alt="Playstation"></td>
-                          <td>Playstation is a video game brand by Sony Interactive Entertainment which consists of home
-                              video game consoles, controllers, media center and an online service provider</td>
-                          <td>Free Uncharted: The Nathan Drake Collection and Journey through digital download</td>
-                          <td><a
-                                  href="https://blog.us.playstation.com/2020/04/14/announcing-the-play-at-home-initiative/">Link</a>
-                          </td>
-                          <td>From April 15 through May 5, 2020</td>
-                      </tr>
-                      <tr id="steam">
-                          <th scope="col"><img class="logo" src="img/games/steam.png" alt="Steam"></td>
-                          <td>Steam is a video game digital distribution service by Valve which offers digital rights
-                              management (DRM), matchmaking servers, video streaming, and social networking services</td>
-                          <td>Free access to Gamecraft and Polyball</td>
-                          <td><a href="https://store.steampowered.com/app/1078000/Gamecraft/">Gamecraft</a>
-                              <p><a href="https://store.steampowered.com/app/368180/Polyball/">Polyball</a>
-                          </td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="ubisoft">
-                          <th scope="col"><img class="logo" src="img/games/ubisoft.jpg" alt="Ubisoft"></td>
-                          <td>Ubisoft Entertainment SA is a French video game company and the creator of Assassin's Creed,
-                              Tom Clancy's series, Far Cry, Watch Dogs and many more</td>
-                          <td>A selection of game giveaways and free trials</td>
-                          <td><a href="https://free.ubisoft.com/">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                  </tbody>
-              </table>
-          </div>
-          <div id="virtual-tours-museums" class="container">
-              <h1>Virtual Tours: Museums</h1>
-              <table class="table table-hover">
-                  <thead>
-                      <tr>
-                          <th scope="col" width="10%">Site</th>
-                          <th scope="col" width="40%">Description</th>
-                          <th scope="col" width="30%">Offer</th>
-                          <th scope="col" width="5%">URL</th>
-                          <th scope="col" width="15%">Availablility</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr id="british-museum">
-                          <th scope="col"><img class="logo" src="img/museums/british-museum.png"
-                                  alt="British Museum, London"></td>
-                          <td>The British Museum has a permanent collection of some eight million works is among the
-                              largest and most comprehensive in existence</td>
-                          <td>View exhibits on a fretboard through human history from 2,000,000 BC</td>
-                          <td><a href="https://britishmuseum.withgoogle.com">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="getty">
-                          <th scope="col"><img class="logo" src="img/museums/getty.png"
-                                  alt="The J. Paul Getty Museum, Los Angeles"></td>
-                          <td>The J. Paul Getty Museum, commonly referred to as the Getty features pre-20th-century
-                              European paintings, drawings, illuminated manuscripts, sculpture, and decorative arts; and
-                              photographs from the 1830s through present day from all over the world</td>
-                          <td>Virtual tour of the museum and its collection</td>
-                          <td><a href="https://artsandculture.google.com/partner/the-j-paul-getty-museum">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="guggenheim-museum">
-                          <th scope="col"><img class="logo" src="img/museums/guggenheim.jpg"
-                                  alt="Guggenheim Museum, New York"></td>
-                          <td>The Solomon R. Guggenheim Museum, often referred to as The Guggenheim, is an art museum and
-                              the permanent home of a continuously expanding collection of Impressionist,
-                              Post-Impressionist, early Modern, and contemporary art</td>
-                          <td>Virtual tour of the museum and its collection</td>
-                          <td><a href="https://artsandculture.google.com/partner/solomon-r-guggenheim-museum">Link</a>
-                          </td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="louvre">
-                          <th scope="col"><img class="logo" src="img/museums/louvre.jpg" alt="Louvre, Paris"></td>
-                          <td>The Louvre is the world's largest art museum and a historic monument in Paris, France</td>
-                          <td>Virtual tour of the museum and its collection</td>
-                          <td><a href="https://www.louvre.fr/en/visites-en-ligne">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="masp">
-                          <th scope="col"><img class="logo" src="img/museums/masp.jpg" alt="MASP, São Paulo"></td>
-                          <td>The São Paulo Museum of Art is internationally recognized for its collection of European
-                              art, considered the finest in Latin America and all Southern Hemisphere</td>
-                          <td>Virtual tour of the museum and its collection</td>
-                          <td><a href="https://artsandculture.google.com/partner/masp">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="mmca">
-                          <th scope="col"><img class="logo" src="img/museums/mmca.jpg"
-                                  alt="National Museum of Modern and Contemporary Art, Seoul"></td>
-                          <td>The National Museum of Contemporary Art (MMCA), also known as Gwacheon Contemporary Art
-                              Museum is founded to contribute to the development of Korean contemporary art by
-                              systematically conserving and exhibiting artworks created since 1910</td>
-                          <td>Virtual tour of the museum and its collection</td>
-                          <td><a
-                                  href="https://artsandculture.google.com/partner/national-museum-of-modern-and-contemporary-art-korea">Link</a>
-                          </td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="musee-d-orsay">
-                          <th scope="col"><img class="logo" src="img/museums/musee-d-orsay.png"
-                                  alt="Musée d’Orsay, Paris"></td>
-                          <td>The Musée d'Orsay holds mainly French art dating from 1848 to 1914, including paintings,
-                              sculptures, furniture, and photography</td>
-                          <td>Virtual tour of the museum and its collection</td>
-                          <td><a href="https://artsandculture.google.com/partner/musee-dorsay-paris">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="nga">
-                          <th scope="col"><img class="logo" src="img/museums/nga.jpg"
-                                  alt="National Gallery of Art, Washington, DC"></td>
-                          <td>The National Gallery of Art includes some 141,000 paintings, drawings, prints, photographs,
-                              sculpture, decorative arts, and new media tracing the development of Western art from the
-                              Middle Ages to the present</td>
-                          <td>Virtual tour of the museum and its collection</td>
-                          <td><a
-                                  href="https://artsandculture.google.com/partner/national-gallery-of-art-washington-dc">Link</a>
-                          </td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="pergamon">
-                          <th scope="col"><img class="logo" src="img/museums/pergamon.PNG" alt="Pergamon Museum, Berlin">
-                              </td>
-                          <td>Pergamon Museum is the most popular museum in Berlin and houses art treasures such as the
-                              Pergamon Altar and the Ishtar Gate</td>
-                          <td>Virtual tour of the museum and its collection</td>
-                          <td><a href="https://artsandculture.google.com/entity/pergamon/m05tcm">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="rijksmuseum">
-                          <th scope="col"><img class="logo" src="img/museums/rijksmuseum.png"
-                                  alt="Rijksmuseum, Amsterdam"></td>
-                          <td>The Rijksmuseum has on display 8,000 objects of art and history, from their total collection
-                              of a million objects from the years 1200–2000, among which are some masterpieces by
-                              Rembrandt, Frans Hals, and Johannes Vermeer</td>
-                          <td>Virtual tour of the museum and its collection</td>
-                          <td><a href="https://artsandculture.google.com/partner/rijksmuseum">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="uffizi">
-                          <th scope="col"><img class="logo" src="img/museums/uffizi.png" alt="Uffizi Gallery, Florence">
-                              </td>
-                          <td>The Uffizi Gallery is one of the largest, most visited Italian museum which holds priceless
-                              art works, particularly from the period of the Italian Renaissance</td>
-                          <td>Virtual tour of the museum and its collection</td>
-                          <td><a href="https://artsandculture.google.com/partner/uffizi-gallery">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                      <tr id="van-gogh-amsterdam">
-                          <th scope="col"><img class="logo" src="img/museums/van-gogh-amsterdam.png"
-                                  alt="Van Gogh Museum, Amsterdam"></td>
-                          <td>The Van Gogh Museum is a Dutch art museum dedicated to the works of Vincent van Gogh and his
-                              contemporaries in Amsterdam</td>
-                          <td>Virtual tour of the museum and its collection</td>
-                          <td><a href="https://artsandculture.google.com/partner/van-gogh-museum">Link</a></td>
-                          <td>Ongoing</td>
-                      </tr>
-                  </tbody>
-              </table>
-          </div>
-      </section>
-      <section>
-          <div id="footer" class="container disclaimer small">
-              <p>All information posted is merely for educational and informational purposes. While Unibored.com has made
-                  every attempt to ensure the accuracy and reliability of the information provided on this website, the
-                  information is provided "as is" without warranty of any kind. While we endeavour to supply accurate
-                  information on this site, errors and omissions may occur, Unibored.com does not accept any liability,
-                  direct or indirect, for any loss or damage which may directly or indirectly result from any advice,
-                  opinion, information, representation or omission whether negligent or otherwise, contained on this site.
-                  You are solely responsible for the actions you take in reliance on the content on, or accessed, through
-                  this site.</p>
-              <p>Unibored.com also provides links to other websites owned by third parties. The content of such third
-                  party sites is not within our control, and we cannot and will not take responsibility for the
-                  information or content thereon. Links to such third party sites are not to be taken as an endorsement by
-                  Unibored.com of the third party site, or any products promoted, offered or sold on the third party site,
-                  nor that such sites are free from computer viruses or anything else that has destructive properties. We
-                  cannot and do not take responsibility for the collection or use of personal data from any third party
-                  site. In addition, we will not accept responsibility for the accuracy of third party advertisements.</p>
+  <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+    <div class="jumbotron" style="background-color: #e3f2fd;">
+        <h1 class="display-3">Unibored.com</h1>
+        <p>A thousand things you could be doing but being bored ain't one. Here's a list of resources you could
+            kickstart your day with if you're stuck at home with little to do.</p>
+    </div>
+    <section class="list">
+        <div class="container">
+            <h1 id="it">Online Learning: IT & Programming</h1>
+            <table id="web-technologies" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col" width="10%">Site</th>
+                        <th scope="col" width="40%">Description</th>
+                        <th scope="col" width="30%">Offer</th>
+                        <th scope="col" width="5%">URL</th>
+                        <th scope="col" width="15%">Availablility</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="365-data-science">
+                        <th scope="col"><img class="logo" src="img/web/365-data-science.png" alt="365 Data Science">
+                            </td>
+                        <td>365 Data Science focuses on data science, designed for aspiring BI analysts, Data Analysts
+                            and Data scientists</td>
+                        <td>Free access to the platform</td>
+                        <td><a href="https://365datascience.com/">Link</a></td>
+                        <td>Free till April 15, 2020</td>
+                    </tr>
+                    <tr id="codecademy">
+                        <th scope="col"><img class="logo" src="img/web/codecademy.png" alt="Codecademy"></td>
+                        <td>Codecademy offers coding classes in 12 different programming languages including Python,
+                            Java, JavaScript, Ruby, SQL, C++, Swift, and Sass, as well as markup languages HTML and CSS
+                        </td>
+                        <td>10,000 scholarships to Codecademy Pro for free to high school and college students</td>
+                        <td><a
+                                href="https://pro.codecademy.com/learn-from-home/?utm_source=contentful_banner&utm_medium=referral&utm_campaign=learn_from_home">Link</a>
+                        </td>
+                        <td>90 days from approval</td>
+                    </tr>
+                    <tr id="dataquest">
+                        <th scope="col"><img class="logo" src="img/web/dataquest.png" alt="Dataquest"></td>
+                        <td>Dataquest offers a curriculum in Data Science with coding challenges and projects in R and
+                            Python</td>
+                        <td>All successful applicants receive three months of free Basic access and another three by
+                            completing one course</td>
+                        <td><a href="https://www.dataquest.io/blog/covid-financial-aid-scholarship">Link</a></td>
+                        <td>3 months + 3 months</td>
+                    </tr>
+                    <tr id="google-cloud">
+                        <th scope="col"><img class="logo" src="img/web/google-cloud.png" alt="Google Cloud"></td>
+                        <td>Google Cloud is suite of cloud computing services that runs on the same infrastructure for
+                            its end-user products e.g. Search, Gmail and YouTube</td>
+                        <td>One month free access to Google Cloud training available on Qwiklabs, Coursera, and
+                            Pluralsight</td>
+                        <td><a href="https://inthecloud.withgoogle.com/training-discount/register.html">Link</a></td>
+                        <td>One month</td>
+                    </tr>
+                    <tr id="ibm-skills-training">
+                        <th scope="col"><img class="logo" src="img/web/ibm.png" alt="IBM Training & Skills"></td>
+                        <td>IBM Training & Skills is offering courses from foundational soft skills programs to IBM
+                            certification training</td>
+                        <td>Free access to the platform</td>
+                        <td><a href="https://www.ibm.com/blogs/ibm-training/free-training-to-update-skills/">Link</a>
+                        </td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="learnsql">
+                        <th scope="col"><img class="logo" src="img/web/learnsql.png" alt="LearnSQL"></td>
+                        <td>LearnSQL offers database tracks in SQL, Microsoft SQL Server and PostgreSQL</td>
+                        <td>Free access to the platform</td>
+                        <td><a href="https://learnsql.com/blog/online-education-in-the-times-of-covid19/">Link</a></td>
+                        <td>Free till April 20, 2020</td>
+                    </tr>
+                    <tr id="microsoft-azure">
+                        <th scope="col"><img class="logo" src="img/web/microsoft.png" alt="Microsoft Azure"></td>
+                        <td>Microsoft Azure offers building, testing, deploying, and managing applications and services
+                            through Microsoft-managed data centers</td>
+                        <td>Free Microsoft Azure Virtual Training Day and voucher for the AZ-900 Microsoft Azure
+                            Fundamentals certification exam</td>
+                        <td><a
+                                href="https://info.microsoft.com/CE-AzureINFRA-WBNR-FY20-04Apr-21-MicrosoftAzureVirtualTrainingDayFundamentalsMaster-">Link</a>
+                        </td>
+                        <td>April 21, 2020</td>
+                    </tr>
+                    <tr id="oracle-university">
+                        <th scope="col"><img class="logo" src="img/web/oracle.png" alt="Oracle University"></td>
+                        <td>Oracle University is an in-classroom and online training provider for Oracle certifications
+                        </td>
+                        <td>Free access to 50 hours of online training and 6 certification exams for Oracle Cloud
+                            Infrastructure and Oracle Autonomous Database</td>
+                        <td><a
+                                href="https://www.oracle.com/corporate/blog/free-certifications-oracle-oci-autonomous-033020.html">Link</a>
+                        </td>
+                        <td>March 30 till May 15, 2020</td>
+                    </tr>
+                    <tr id="pluralsight">
+                        <th scope="col"><img class="logo" src="img/web/pluralsight.png" alt="Pluralsight"></td>
+                        <td>Pluralsight offers variety of video training courses for software developers, IT
+                            administrators, and creative professionals</td>
+                        <td>Free access to the platform</td>
+                        <td><a href="https://www.pluralsight.com/offer/2020/free-april-month">Link</a></td>
+                        <td>Free till April 30, 2020</td>
+                    </tr>
+                    <tr id="real-python">
+                        <th scope="col"><img class="logo" src="img/web/real-python.png" alt="Real Python"></td>
+                        <td>Real Python offers Python tutorials for developers of all skill levels including books,
+                            courses, news, code examples and articles</td>
+                        <td>Gift code to a bundle of specific members-only video courses</td>
+                        <td><a href="https://realpython.com/free-courses-march-2020">Link</a></td>
+                        <td>Lifetime</td>
+                    </tr>
+                    <tr id="skillshare">
+                        <th scope="col"><img class="logo" src="img/web/skillshare.png" alt="Skillshare"></td>
+                        <td>Skillshare is an online learning community for people who want to learn from educational
+                            videos through interaction and completing projects</td>
+                        <td>Free for .edu and .k12 email address with limited need-based availability</td>
+                        <td><a
+                                href="https://www.skillshare.com/blog/company/were-in-this-together-and-we-want-to-help">Link</a>
+                        </td>
+                        <td>2 months</td>
+                    </tr>
+                    <tr id=stanford-university>
+                        <th scope="col"><img class="logo" src="img/web/stanford-old.png" alt="Stanford University"></td>
+                        <td>Stanford University's CS106A - Code in Place, will be an introductory programming course
+                            using the Python language, using material from the first half of its established intro
+                            course, CS106A</td>
+                        <td>Free introductory coding course subject to availability</td>
+                        <td><a href="https://compedu.stanford.edu/codeinplace/announcement/">Link</a></td>
+                        <td>April 13 till May 22, 2020</td>
+                    </tr>
+                    <tr id="tableau">
+                        <th scope="col"><img class="logo" src="img/web/tableau.png" alt="Tableau"></td>
+                        <td>Tableau is an interactive data visualization software focusing on Business Intelligence</td>
+                        <td>Free access to Tableau eLearning</td>
+                        <td><a href="https://www.tableau.com/learn/training/elearning">Link</a></td>
+                        <td>90 days</td>
+                    </tr>
+                    <tr id="udacity">
+                        <th scope="col"><img class="logo" src="img/web/udacity-full.png" alt="Udacity"></td>
+                        <td>Udacity offers vocational massive open online courses (MOOCs) and nanodegrees in Data
+                            Science, Artificial Intelligence, Autonomous Systems, Cloud Computing and Business in
+                            addition to Programming</td>
+                        <td>One free month on one of 40 premium Nanodegree programs</td>
+                        <td><a href="https://blog.udacity.com/2020/03/one-month-free-on-nanodegrees.html">Link</a></td>
+                        <td>One month</td>
+                    </tr>
+                    <tr id="unity-learn">
+                        <th scope="col"><img class="logo" src="img/web/unity.png" alt="Unity Learn"></td>
+                        <td>Unity Learn is a learning platform to build real-time 2D, 3D, VR and AR visualizations</td>
+                        <td>Free access to the platform</td>
+                        <td><a href="https://learn.unity.com/">Link</a></td>
+                        <td>3 month</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <h1 id="arts">Online Learning: Arts</h1>
+            <table id="arts" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col" width="10%">Site</th>
+                        <th scope="col" width="40%">Description</th>
+                        <th scope="col" width="30%">Offer</th>
+                        <th scope="col" width="5%">URL</th>
+                        <th scope="col" width="15%">Availablility</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="amped">
+                        <th scope="col"><img class="logo" src="img/arts/amped.png" alt="Amped Guitar"></td>
+                        <td>Amped uses Augmented Reality to help you learn. It listens to you and modifies your playing
+                            in real-time</td>
+                        <td>3 months premium access</td>
+                        <td><a href="https://www.ampedguitar.com/">Link</a></td>
+                        <td>3 months</td>
+                    </tr>
+                    <tr id="milk-street">
+                        <th scope="col"><img class="logo" src="img/arts/milk-street.jpg"
+                                alt="Christopher Kimball's Milk Street"></td>
+                        <td>At the Milk Street Online Cooking School you won’t learn just recipes, you'll learn new ways
+                            to approach food and cooking, giving you a reinvigorated enthusiasm for putting dinner on
+                            the table</td>
+                        <td>The entire line of online cooking classes available for free till the end of April</td>
+                        <td><a href="https://www.177milkstreet.com/school/classes/online-classes/">Link</a></td>
+                        <td>Free through April 30, 2020</td>
+                    </tr>
+                    <tr id="ella-verbs">
+                        <th scope="col"><img class="logo" src="img/arts/ella-verbs.jpg" alt="Ella Verbs"></td>
+                        <td>Ella Verbs helps you learn Spanish verbs conjugation by working through 30 levels of
+                            bite-sized lessons & quizzes, covering 16 tenses and 1000+ verbs</td>
+                        <td>One free month on iOS and Android</td>
+                        <td><a href="https://ellaverbs.com/education/">Link</a></td>
+                        <td>One month</td>
+                    </tr>
+                    <tr id="fender-play">
+                        <th scope="col"><img class="logo" src="img/arts/fender-play.jpg" alt="Fender Play"></td>
+                        <td>Fender Play is the complete app for learning to play acoustic and electric guitar, bass and
+                            ukulele</td>
+                        <td>3 months of free lessons</td>
+                        <td><a href="https://try.fender.com/play/playthrough/">Link</a></td>
+                        <td>3 months</td>
+                    </tr>
+                    <tr id="nikon">
+                        <th scope="col"><img class="logo" src="img/arts/nikon.png" alt="Nikon"></td>
+                        <td>Nikon School has been educating and inspiring photographers of all levels with affordable
+                            photography classes across the country for over 30 years</td>
+                        <td>Free courses</td>
+                        <td><a href="https://www.ampedguitar.com/">Link</a></td>
+                        <td>Free till April 30, 2020</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <h1 id="health">Health, Fitness & Wellness</h1>
+            <table id="health-fitness-wellness" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col" width="10%">Site</th>
+                        <th scope="col" width="40%">Description</th>
+                        <th scope="col" width="30%">Offer</th>
+                        <th scope="col" width="5%">URL</th>
+                        <th scope="col" width="15%">Availablility</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="balance">
+                        <th scope="col"><img class="logo" src="img/fitness/balance.png" alt="Balance: Meditation"></td>
+                        <td>Balance is your personal meditation coach. Improve your stress, sleep, and more</td>
+                        <td>Free one year trial. Available on iOS</td>
+                        <td><a href="https://apps.apple.com/app/id1361356590">Link</a></td>
+                        <td>One year</td>
+                    </tr>
+                    <tr id="core-power-yoga">
+                        <th scope="col"><img class="logo" src="img/fitness/core-power-yoga.png" alt="CorePower Yoga">
+                            </td>
+                        <td>CorePower Yoga On Demand offers more than 250 online yoga, sculpt and meditation classes
+                        </td>
+                        <td>Free access to a new collection of online classes every week</td>
+                        <td><a href="https://www.corepoweryogaondemand.com/keep-up-your-practice">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="fitbit">
+                        <th scope="col"><img class="logo" src="img/fitness/fitbit.png" alt="Fitbit"></td>
+                        <td>Fitbit app tracks basic stats and stay motivated on your journey to better health and
+                            fitness or get a Fitbit tracker or smartwatch to see how your activity, workouts, sleep,
+                            nutrition and stress all fit together</td>
+                        <td>90-day premium trial via the Fitbit app. Valid payment method required. Cancel before free
+                            trial ends to avoid subscription fees</td>
+                        <td><a href="https://blog.fitbit.com/letter-from-ceo/">Link</a></td>
+                        <td>90 days</td>
+                    </tr>
+                    <tr id="golds-gym">
+                        <th scope="col"><img class="logo" src="img/fitness/golds-gym.png" alt="Gold's Gym"></td>
+                        <td>Gold's Gym is a chain of fitness centers worldwide which were in its early days frequent by
+                            Arnold Schwarzenegger and Dave Draper whilst operating in Venice, California</td>
+                        <td>Free unlimited access to in-app and on demand workouts with GOLD's AMP app</td>
+                        <td><a href="https://www.goldsgym.com/anywhere/">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="headspace">
+                        <th scope="col"><img class="logo" src="img/fitness/headspace.png" alt="Headspace"></td>
+                        <td>Headspace provides sessions of guided meditation with the goal of mindfulness</td>
+                        <td>Access to a selection of meditations </td>
+                        <td><a href="https://www.headspace.com/covid-19">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="les-mills">
+                        <th scope="col"><img class="logo" src="img/fitness/les-mills-on-demand.png"
+                                alt="Les Mills On Demand"></td>
+                        <td>LES MILLS™ ON DEMAND offers online workouts on the go with Cardio, Strength, HIIT, Core and
+                            Flexibility Classes</td>
+                        <td>Free access to 100+ workouts during the COVID-19 disruptions</td>
+                        <td><a href="https://watch.lesmillsondemand.com/at-home-workouts">Link</a></td>
+                        <td>Unknown</td>
+                    </tr>
+                    <tr id="lift">
+                        <th scope="col"><img class="logo" src="img/fitness/lift-app.jpg" alt="Lift"></td>
+                        <td>Lift is a science-based recovery tool to help people find deeper levels of healing from
+                            depression or anxiety</td>
+                        <td>Free depression and anxiety recovery program with code "COVIDRECOVERY2020" under Billing
+                            after creating a free account</td>
+                        <td><a href="https://www.joinlift.com/">Link</a></td>
+                        <td>One year</td>
+                    </tr>
+                    <tr id="peloton">
+                        <th scope="col"><img class="logo" src="img/fitness/peloton.png" alt="Peloton"></td>
+                        <td>Peloton app allows anyone to workout at-home without a Peloton branded equipment from
+                            cycling, HIIT to yoga and meditation</td>
+                        <td>Full library free for 90 days for new users who signs up by April 30. Cancel before free
+                            trial ends to avoid subscription fees</td>
+                        <td><a href="https://www.onepeloton.com/digital/checkout/digital-90d">Link</a></td>
+                        <td>90 days</td>
+                    </tr>
+                    <tr id="runtastic">
+                        <th scope="col"><img class="logo" src="img/fitness/runtastic.png" alt="Runtastic"></td>
+                        <td>Runtastic track your runs, bodyweight training sessions, and other fitness & sports
+                            activities</td>
+                        <td>Free 3 Months Access to Runtastic Premium Membership</td>
+                        <td><a
+                                href="https://www.runtastic.com/checkout/results?code=RNT-WBDA-XAVD&experiments=benefits_footer&hide_progress_indicator=true&ut=93f3eeb8ee17bc">Link</a>
+                        </td>
+                        <td>3 months</td>
+                    </tr>
+                    <tr id="robards">
+                        <th scope="col"><img class="logo" src="img/fitness/the-robards-method.png"
+                                alt="The Robards' Method"></td>
+                        <td>The 12 minute Abs Challenge strengthen your core, burns fat and develops your six-pack in
+                            just 6 weeks by simply adding TRM’s 12 Minute, equipment free, workout to your training
+                            three times a week.</td>
+                        <td>Free 12 Minute Abs Challenge with code 'FREEABS'</td>
+                        <td><a href="https://www.therobardsmethod.com/abs/">Link</a></td>
+                        <td>Lifetime</td>
+                    </tr>
+                    <tr id="ymca">
+                        <th scope="col"><img class="logo" src="img/fitness/ymca-360.png" alt="YMCA 360"></td>
+                        <td>YMCA 360 is an on-demand online exercise, fitness, wellbeing, and youth sports classes from
+                            the comfort of your own home</td>
+                        <td>Free Online Fitness Classes</td>
+                        <td><a href="https://ymca360.org/">Link</a></td>
+                        <td>Unknown</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <h1 id="entertainment">Entertainment</h1>
+            <table id="entertainment" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col" width="10%">Site</th>
+                        <th scope="col" width="40%">Description</th>
+                        <th scope="col" width="30%">Offer</th>
+                        <th scope="col" width="5%">URL</th>
+                        <th scope="col" width="15%">Availablility</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="cirque-de-soleil">
+                        <th scope="col"><img class="logo" src="img/entertainment/cirque-du-soleil.png"
+                                alt="Cirque De Soleil"></td>
+                        <td>Cirque du Soleil is a Montreal-based entertainment company and the largest contemporary
+                            circus producer in the world</td>
+                        <td>Stream awe-inspiring show footage and fan favorite videos with its 60-minute specials</td>
+                        <td><a href="https://www.cirquedusoleil.com/cirqueconnect">Link</a></td>
+                        <td>Streamed on Fridays from March 27, 2020</td>
+                    </tr>
+                    <tr id="formula-1">
+                        <th scope="col"><img class="logo" src="img/entertainment/formula-1.png" alt="Formula 1"></td>
+                        <td>F1 TV is a subscription service that gets fans into the pitwall with race highlights,
+                            achives and exclusive documentary</td>
+                        <td>F1 TV Access is free for 30 days with code "1950F1TV2020"</td>
+                        <td><a
+                                href="https://www.formula1.com/en/latest/article.get-ready-to-binge-f1-tv-access-is-now-free-for-30-days.1Dil4SQ8MZCbJDFFy3Z1kk.html">Link</a>
+                        </td>
+                        <td>30 days</td>
+                    </tr>
+                    <tr id="juventus">
+                        <th scope="col"><img class="logo" src="img/entertainment/juventus.png" alt="Juventus TV"></td>
+                        <td>Juventus TV is the new on-demand platform that offers unprecedented access to the Juventus
+                            world. The first images of new players, training sessions, exclusive interviews, historical
+                            matches and more</td>
+                        <td>Free 30 days with code "JUVE30DAYS"</td>
+                        <td><a href="https://www.juventus.com/en/fans/tv/index.php">Link</a></td>
+                        <td>30 days</td>
+                    </tr>
+                    <tr id="mso">
+                        <th scope="col"><img class="logo" src="img/entertainment/mso.png"
+                                alt="Melbourne Symphony Orchestra"></td>
+                        <td>The Melbourne Symphony Orchestra is a non-profit, and the oldest professional orchestra in
+                            Australia and a resident at Hammer Hall, Melbourne</td>
+                        <td>Free access to its online concert series with performance broadcasts from the MSO archives
+                        </td>
+                        <td><a href="https://www.youtube.com/playlist?list=PLGUc1mZt9dlIEEDCO1pqGNDP-Wzv0x-rj">Link</a>
+                        </td>
+                        <td>Every Thursday night at 7.30pm</td>
+                    </tr>
+                    <tr id="melbourne-zoo">
+                        <th scope="col"><img class="logo" src="img/entertainment/melbourne-zoo.png" alt="Melbourne Zoo">
+                            </td>
+                        <td>The Royal Melbourne Zoological Gardens, commonly known as the Melbourne Zoo, is a zoological
+                            park in Melbourne, Australia</td>
+                        <td>Free Live Stream of Melbourne Zoo Animals</td>
+                        <td><a href="https://www.youtube.com/channel/UCS9UBqaUtoIXUhX0J1BnxwQ">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="one-world">
+                        <th scope="col"><img class="logo" src="img/entertainment/one-world.png"
+                                alt="One World: Together at Home"></td>
+                        <td>In collaboration with Lady Gaga, Global Citizen and the World Health Organization (WHO), One
+                            World: Together at Home is a global broadcast and digital special to support frontline
+                            healthcare workers and the WHO with more than 70 musical artists and dozens of celebrities
+                        </td>
+                        <td>Streamed on multiple global platforms including Alibaba, Facebook, Instagram, Prime Video,
+                            Tencent, TIDAL, TuneIn, Twitch, Twitter, YouTube and more</td>
+                        <td><a
+                                href="https://www.youtube.com/playlist?list=PLPDkqknt-rAgGzWv1fots5C0kg4pKIyRn&utm_source=Iterable">Link</a>
+                        </td>
+                        <td>From Saturday, 18 April 2020, 18:00 GMT</td>
+                    </tr>
+                    <tr id="pearl-jam">
+                        <th scope="col"><img class="logo" src="img/entertainment/pearl-jam.png" alt="Pearl Jam"></td>
+                        <td>Pearl Jam is an American rock band formed in 1990 in Seattle, Washington and has sold more
+                            than 85 million albums worldwide, won multiple awards and was inducted into the Rock and
+                            Roll Hall of Fame in its first year of eligibility</td>
+                        <td>Free download of its live albums from 1990 to 2009</td>
+                        <td><a href="http://pearljamlive.com/download.html">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="prime-video">
+                        <th scope="col"><img class="logo" src="img/entertainment/prime-video.png" alt="Prime Video">
+                            </td>
+                        <td>Prime Video, also marketed as Amazon Prime Video, is an American Internet video on-demand
+                            service which offers television shows and films for rent or purchase and Prime Video, a
+                            selection of Amazon Studios original content</td>
+                        <td>Free Kids Shows on Amazon Prime for all Amazon customers</td>
+                        <td><a
+                                href="https://www.primevideo.com/storefront/ref=atv_me_fre_c_wGfJ0R_3XldU9_1_1?contentType=merch&contentId=freeforall&merchId=freeforall">Link</a>
+                        </td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="sbs">
+                        <th scope="col"><img class="logo" src="img/entertainment/sbs.png" alt="SBS"></td>
+                        <td>SBS On Demand provides free, unlimited streaming of TV shows, films and events</td>
+                        <td>Free streaming of season 1-11 of The X-Files</td>
+                        <td><a href="https://www.sbs.com.au/ondemand/program/the-x-files">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="the-met">
+                        <th scope="col"><img class="logo" src="img/entertainment/the-met.png"
+                                alt="The Metropolitan Opera"></td>
+                        <td>The Metropolitan Opera (the Met) is a non-profit opera company based in New York City,
+                            resident at the Metropolitan Opera House at the Lincoln Center for the Performing Arts</td>
+                        <td>Each day, a different encore presentation from the company’s Live in HD series is being made
+                            available for free streaming on the Met website</td>
+                        <td><a href="https://www.metopera.org/user-information/nightly-met-opera-streams/">Link</a></td>
+                        <td>Available 23 hours a day, daily</td>
+                    </tr>
+                    <tr id="the-met">
+                        <th scope="col"><img class="logo" src="img/entertainment/wwe.png" alt="The Metropolitan Opera">
+                            </td>
+                        <td>WWE Network is an online video streaming service and digital television network where you
+                            can watch all of WWE's pay-per-view events at no additional cost</td>
+                        <td>Free access to on-demand content, including every WrestleMania in history, countless
+                            pay-per-view spectaculars and original documentaries</td>
+                        <td><a href="https://watch.wwe.com/">Link</a></td>
+                        <td>Expired</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <h1 id="games">Games</h1>
+            <table id="games" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col" width="10%">Site</th>
+                        <th scope="col" width="40%">Description</th>
+                        <th scope="col" width="30%">Offer</th>
+                        <th scope="col" width="5%">URL</th>
+                        <th scope="col" width="15%">Availablility</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="cards-against-humanity">
+                        <th scope="col"><img class="logo" src="img/games/cards-against-humanity.png"
+                                alt="Cards Against Humanity"></td>
+                        <td>Cards Against Humanity is a party game in which players complete fill-in-the-blank
+                            statements using words or phrases typically deemed as offensive, risqué or politically
+                            incorrect printed on playing cards</td>
+                        <td>Free Print and Play beta version of the Cards Against Humanity: Family Edition</td>
+                        <td><a href="https://www.cardsagainsthumanityfamilyedition.com/">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="epic-games">
+                        <th scope="col"><img class="logo" src="img/games/epic-games.png" alt="Epic Games"></td>
+                        <td>Epic Games, Inc. is an American video game and software developer and publisher of games
+                            like Fortnight, Gears of War and the Infinity Blade series</td>
+                        <td>One free game a week with a few extras</td>
+                        <td><a href="https://www.epicgames.com/store/en-US/free-games">Link</a></td>
+                        <td>Ongoing till April 30, 2020</td>
+                    </tr>
+                    <tr id="gog">
+                        <th scope="col"><img class="logo" src="img/games/gog.png" alt="GOG.com"></td>
+                        <td>GOG.com is a digital distribution platform for video games and films</td>
+                        <td>A selection of DRM-free classic and indie games from 1980 to 2020</td>
+                        <td><a href="https://www.gog.com/partner/stay_at_home">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="playstation">
+                        <th scope="col"><img class="logo" src="img/games/playstation.png" alt="Playstation"></td>
+                        <td>Playstation is a video game brand by Sony Interactive Entertainment which consists of home
+                            video game consoles, controllers, media center and an online service provider</td>
+                        <td>Free Uncharted: The Nathan Drake Collection and Journey through digital download</td>
+                        <td><a
+                                href="https://blog.us.playstation.com/2020/04/14/announcing-the-play-at-home-initiative/">Link</a>
+                        </td>
+                        <td>From April 15 through May 5, 2020</td>
+                    </tr>
+                    <tr id="steam">
+                        <th scope="col"><img class="logo" src="img/games/steam.png" alt="Steam"></td>
+                        <td>Steam is a video game digital distribution service by Valve which offers digital rights
+                            management (DRM), matchmaking servers, video streaming, and social networking services</td>
+                        <td>Free access to Gamecraft and Polyball</td>
+                        <td><a href="https://store.steampowered.com/app/1078000/Gamecraft/">Gamecraft</a>
+                            <p><a href="https://store.steampowered.com/app/368180/Polyball/">Polyball</a>
+                        </td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="ubisoft">
+                        <th scope="col"><img class="logo" src="img/games/ubisoft.jpg" alt="Ubisoft"></td>
+                        <td>Ubisoft Entertainment SA is a French video game company and the creator of Assassin's Creed,
+                            Tom Clancy's series, Far Cry, Watch Dogs and many more</td>
+                        <td>A selection of game giveaways and free trials</td>
+                        <td><a href="https://free.ubisoft.com/">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <h1 id="museums">Virtual Tours: Museums</h1>
+            <table id="virtual-tours-museums" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col" width="10%">Site</th>
+                        <th scope="col" width="40%">Description</th>
+                        <th scope="col" width="30%">Offer</th>
+                        <th scope="col" width="5%">URL</th>
+                        <th scope="col" width="15%">Availablility</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="british-museum">
+                        <th scope="col"><img class="logo" src="img/museums/british-museum.png"
+                                alt="British Museum, London"></td>
+                        <td>The British Museum has a permanent collection of some eight million works is among the
+                            largest and most comprehensive in existence</td>
+                        <td>View exhibits on a fretboard through human history from 2,000,000 BC</td>
+                        <td><a href="https://britishmuseum.withgoogle.com">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="getty">
+                        <th scope="col"><img class="logo" src="img/museums/getty.png"
+                                alt="The J. Paul Getty Museum, Los Angeles"></td>
+                        <td>The J. Paul Getty Museum, commonly referred to as the Getty features pre-20th-century
+                            European paintings, drawings, illuminated manuscripts, sculpture, and decorative arts; and
+                            photographs from the 1830s through present day from all over the world</td>
+                        <td>Virtual tour of the museum and its collection</td>
+                        <td><a href="https://artsandculture.google.com/partner/the-j-paul-getty-museum">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="guggenheim-museum">
+                        <th scope="col"><img class="logo" src="img/museums/guggenheim.jpg"
+                                alt="Guggenheim Museum, New York"></td>
+                        <td>The Solomon R. Guggenheim Museum, often referred to as The Guggenheim, is an art museum and
+                            the permanent home of a continuously expanding collection of Impressionist,
+                            Post-Impressionist, early Modern, and contemporary art</td>
+                        <td>Virtual tour of the museum and its collection</td>
+                        <td><a href="https://artsandculture.google.com/partner/solomon-r-guggenheim-museum">Link</a>
+                        </td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="louvre">
+                        <th scope="col"><img class="logo" src="img/museums/louvre.jpg" alt="Louvre, Paris"></td>
+                        <td>The Louvre is the world's largest art museum and a historic monument in Paris, France</td>
+                        <td>Virtual tour of the museum and its collection</td>
+                        <td><a href="https://www.louvre.fr/en/visites-en-ligne">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="masp">
+                        <th scope="col"><img class="logo" src="img/museums/masp.jpg" alt="MASP, São Paulo"></td>
+                        <td>The São Paulo Museum of Art is internationally recognized for its collection of European
+                            art, considered the finest in Latin America and all Southern Hemisphere</td>
+                        <td>Virtual tour of the museum and its collection</td>
+                        <td><a href="https://artsandculture.google.com/partner/masp">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="mmca">
+                        <th scope="col"><img class="logo" src="img/museums/mmca.jpg"
+                                alt="National Museum of Modern and Contemporary Art, Seoul"></td>
+                        <td>The National Museum of Contemporary Art (MMCA), also known as Gwacheon Contemporary Art
+                            Museum is founded to contribute to the development of Korean contemporary art by
+                            systematically conserving and exhibiting artworks created since 1910</td>
+                        <td>Virtual tour of the museum and its collection</td>
+                        <td><a
+                                href="https://artsandculture.google.com/partner/national-museum-of-modern-and-contemporary-art-korea">Link</a>
+                        </td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="musee-d-orsay">
+                        <th scope="col"><img class="logo" src="img/museums/musee-d-orsay.png"
+                                alt="Musée d’Orsay, Paris"></td>
+                        <td>The Musée d'Orsay holds mainly French art dating from 1848 to 1914, including paintings,
+                            sculptures, furniture, and photography</td>
+                        <td>Virtual tour of the museum and its collection</td>
+                        <td><a href="https://artsandculture.google.com/partner/musee-dorsay-paris">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="nga">
+                        <th scope="col"><img class="logo" src="img/museums/nga.jpg"
+                                alt="National Gallery of Art, Washington, DC"></td>
+                        <td>The National Gallery of Art includes some 141,000 paintings, drawings, prints, photographs,
+                            sculpture, decorative arts, and new media tracing the development of Western art from the
+                            Middle Ages to the present</td>
+                        <td>Virtual tour of the museum and its collection</td>
+                        <td><a
+                                href="https://artsandculture.google.com/partner/national-gallery-of-art-washington-dc">Link</a>
+                        </td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="pergamon">
+                        <th scope="col"><img class="logo" src="img/museums/pergamon.PNG" alt="Pergamon Museum, Berlin">
+                            </td>
+                        <td>Pergamon Museum is the most popular museum in Berlin and houses art treasures such as the
+                            Pergamon Altar and the Ishtar Gate</td>
+                        <td>Virtual tour of the museum and its collection</td>
+                        <td><a href="https://artsandculture.google.com/entity/pergamon/m05tcm">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="rijksmuseum">
+                        <th scope="col"><img class="logo" src="img/museums/rijksmuseum.png"
+                                alt="Rijksmuseum, Amsterdam"></td>
+                        <td>The Rijksmuseum has on display 8,000 objects of art and history, from their total collection
+                            of a million objects from the years 1200–2000, among which are some masterpieces by
+                            Rembrandt, Frans Hals, and Johannes Vermeer</td>
+                        <td>Virtual tour of the museum and its collection</td>
+                        <td><a href="https://artsandculture.google.com/partner/rijksmuseum">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="uffizi">
+                        <th scope="col"><img class="logo" src="img/museums/uffizi.png" alt="Uffizi Gallery, Florence">
+                            </td>
+                        <td>The Uffizi Gallery is one of the largest, most visited Italian museum which holds priceless
+                            art works, particularly from the period of the Italian Renaissance</td>
+                        <td>Virtual tour of the museum and its collection</td>
+                        <td><a href="https://artsandculture.google.com/partner/uffizi-gallery">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr id="van-gogh-amsterdam">
+                        <th scope="col"><img class="logo" src="img/museums/van-gogh-amsterdam.png"
+                                alt="Van Gogh Museum, Amsterdam"></td>
+                        <td>The Van Gogh Museum is a Dutch art museum dedicated to the works of Vincent van Gogh and his
+                            contemporaries in Amsterdam</td>
+                        <td>Virtual tour of the museum and its collection</td>
+                        <td><a href="https://artsandculture.google.com/partner/van-gogh-museum">Link</a></td>
+                        <td>Ongoing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div id="footer" class="container disclaimer small">
+            <p>All information posted is merely for educational and informational purposes. While Unibored.com has made
+                every attempt to ensure the accuracy and reliability of the information provided on this website, the
+                information is provided "as is" without warranty of any kind. While we endeavour to supply accurate
+                information on this site, errors and omissions may occur, Unibored.com does not accept any liability,
+                direct or indirect, for any loss or damage which may directly or indirectly result from any advice,
+                opinion, information, representation or omission whether negligent or otherwise, contained on this site.
+                You are solely responsible for the actions you take in reliance on the content on, or accessed, through
+                this site.</p>
+            <p>Unibored.com also provides links to other websites owned by third parties. The content of such third
+                party sites is not within our control, and we cannot and will not take responsibility for the
+                information or content thereon. Links to such third party sites are not to be taken as an endorsement by
+                Unibored.com of the third party site, or any products promoted, offered or sold on the third party site,
+                nor that such sites are free from computer viruses or anything else that has destructive properties. We
+                cannot and do not take responsibility for the collection or use of personal data from any third party
+                site. In addition, we will not accept responsibility for the accuracy of third party advertisements.</p>
 
-          </div>
-      </section>
-    </main>
-  </div>
-</div>
+        </div>
+    </section>
+  </main>
 </body>
 
 </html>
